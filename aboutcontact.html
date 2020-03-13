@@ -8,7 +8,7 @@
 </head>
 <body link="black" vlink="black">
     <!-- Navigation -->
-    <hr> 
+    
     <table align="right" cellspacing="10" >
         <tr>
             
@@ -35,34 +35,40 @@
     </table>
    
     <h1><img src="./asset/image/aboutme.PNG" alt="about me" width="100%"></h1>
-    <div align="center" width="80%">
+    <table align="center" width="80%">
+        <tr>
+            <td>
+                <p>I am from Addis Ababa, Ethiopia, and i am a second year student in Addis Ababa Institute Of Technology. 
+                    In High school i was one of compitative kids and pay attenstion in the class. My friends and i myself spend our time together.
+                    Then I decied to study Engineering and i joined Addis Ababa University, Addis Ababa Institute Of Technology. And After
+                    pre-Engineering programs that the university gave us I originally had no 
+                    idea what i am going into study. After some reasearch, i choose to study Software Engineering eventhouhg it is not easy I am so happy that I made a decision.
+                    and i am now a second year student. I enjoy my time at school: it is really nice to study, the students are very friendly 
+                    and ready to help. The atmosphere cannot but make me want to go there every time. I like to receive and deal with challenging tasks. 
+                    I am a very enthusiastic student and I think this is a strong point of mine.
+                    </p>
+            </td>
+        </tr>
         
-        <p>I am from Addis Ababa, Ethiopia, and i am a second year student in Addis Ababa Institute Of Technology. 
-        In High school i was one of compitative kids and pay attenstion in the class. My friends and i myself spend our time together.
-        Then I decied to study Engineering and i joined Addis Ababa University, Addis Ababa Institute Of Technology. And After
-        pre-Engineering programs that the university gave us I originally had no 
-        idea what i am going into study. After some reasearch, i choose to study Software Engineering eventhouhg it is not easy I am so happy that I made a decision.
-        and i am now a second year student. I enjoy my time at school: it is really nice to study, the students are very friendly 
-        and ready to help. The atmosphere cannot but make me want to go there every time. I like to receive and deal with challenging tasks. 
-        I am a very enthusiastic student and I think this is a strong point of mine.
-        </p>
-
-        <p>
+        <tr><td align="center">
             <img class="image" src="https://images.pexels.com/photos/1002654/pexels-photo-1002654.jpeg" 
             alt="Reading moments" width="350" height="400">
-        </p>
-        <p>
+        </td></tr>
+        <tr>
+            <td>
             I am now participating in different areas specally that are related to my subject of study. I am a volunteer at Ethiopian 
             Space Science Society. The Benefits of Volunteering People volunteer for a wide variety of reasons, especially wanting to 
             help others. Some people are uncomfortable with the notion that a volunteer "benefits" from doing volunteer work. Traditionally, 
             volunteer work is seen as a form of charity based on unselfishness and altruism. 
             
-        </p>
-        <p>
+            </td>
+        </tr>
+        <tr><td align="center">
             <img class="image" src="./asset/image/youthmappers.jpg" 
             alt="Night" width="350" height="400">
-        </p>
-        <p>
+        </td></tr>
+            
+        <tr><td>
             I believe mindfulness in the college is key to success - a tenet i live out through my 
             interests in sports, reading, gardening, and painting. The goal I’m currently striving for is to make myself better than who i was yesterday, 
              to live in by starting the changes with myself. Sure, I’ve had bad experiences in my life too, but this is exactly what made me the way 
@@ -73,9 +79,11 @@
             <br>
             You can follow my current work on GitHub. In my free time, I love spending time 
             with my family and my friends. Thank you so much for your attension and time.
-        </p>
-    </div>
-    <hr width="80%">
+        </td></tr>
+            
+        
+    </table>
+    <hr width="70%">
     <table cellspacing="10" align="center">
         <caption><h2 align="left">Experience </h2></caption>
         <tbody><tr>
@@ -126,8 +134,8 @@
         </tr>
         <tr>
             <td>
-                <input type="tel" name="phone no." id="phone no." pattern="[\d]{10}" 
-                    title="Phone number must be 10 digits" placeholder="Phone number" >
+                <input type="tel" name="phone no." id="phone no." pattern="[\d]{20}" 
+                    title="Phone number must be 20 digits" placeholder="Phone number" >
             </td>
         </tr>
         <tr>
@@ -135,7 +143,24 @@
                 <input type="email" name="email" id="email" required placeholder="Email" height="40px">
             </td>
         </tr>
-        
+        <tr>
+                
+            <td>
+                <select name="contry" id="country">
+                    <option value="et">Ethiopia</option>
+                    <option value="australia">Australia</option>
+                    <option value="canada">Canada</option>
+                    <option value="usa">USA</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+               
+            <td>
+                <input type="date" id="start" min="2020-03-03" 
+>
+            </td>
+        </tr>
         <tr>
             <td>
                 <textarea name="detail" id="detail" placeholder="Message" rows="5" cols="22"></textarea>
